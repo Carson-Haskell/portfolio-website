@@ -16,7 +16,7 @@ const ContactIcons = () => {
       {CONTACT_ICONS.map(icon => (
         <div
           key={icon.key}
-          className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer shadow-gray-400 hover:scale-125"
+          className="p-4 duration-300 ease-in rounded-full shadow-lg cursor-pointer hover:shadow-2xl hover:scale-110 shadow-gray-400"
         >
           {icon.icon}
         </div>

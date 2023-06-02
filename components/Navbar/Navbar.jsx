@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 z-[100] bg-[#ecf0f3]">
       {/* Desktop navigation -- header */}
       <HeaderNav
         logo={

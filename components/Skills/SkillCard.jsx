@@ -1,14 +1,11 @@
 import Lottie from "lottie-react";
 
-const SkillCard = ({ icon, skill }) => {
+const SkillCard = ({ icon }) => {
   return (
-    <div className="p-6 duration-300 ease-in shadow-lg hover:shadow-2xl hover:scale-100 rounded-xl">
-      <div className="grid items-center justify-center grid-cols-2 gap-4">
+    <div className="xl:w-full w-[80%] p-10 m-auto lg:mb-4 duration-300 ease-in shadow-lg cursor-pointer rounded-[10%] hover:shadow-2xl hover:scale-105 ">
+      <div className="flex items-center justify-center">
         <div className="m-auto">
           {icon}
-        </div>
-        <div className="flex flex-col items-center justify-center">
-          <h3>{skill}</h3>
         </div>
       </div>
     </div>
