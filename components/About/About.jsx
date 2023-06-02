@@ -9,7 +9,7 @@ const About = () => {
   const [play, { stop }] = useSound(typingSfx, { volume: 0.5 });
 
   return (
-    <div className="flex items-center justify-between w-full p-2 md:py-12 md:h-screen">
+    <div className="flex items-center justify-between w-full p-2 lg:pb-44 lg:mb-10 md:h-screen lg:h-[70%]">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="self-center col-span-2 ">
           <p className="text-xl tracking-widest uppercase text-[#5651e5]">
