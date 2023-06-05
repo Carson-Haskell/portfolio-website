@@ -10,7 +10,7 @@ const Main = () => {
             My slogan goes here
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]">Carson</span>
+            Hi, I'm <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#5651e5] to-[#729bf5]">Carson</span>
           </h1>
           <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
