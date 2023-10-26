@@ -45,7 +45,7 @@ const ContactForm = () => {
           <input
             type="text"
             className={`flex p-3 border-2 ${
-              !name ? 'border-red-400' : 'border-gray-300'
+              !name && error ? 'border-red-400' : 'border-gray-300'
             } rounded-lg`}
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -56,7 +56,7 @@ const ContactForm = () => {
           <input
             type="text"
             className={`flex p-3 border-2 ${
-              !number ? 'border-red-400' : 'border-gray-300'
+              !number && error ? 'border-red-400' : 'border-gray-300'
             } rounded-lg`}
             value={number}
             onChange={(e) => setNumber(e.target.value)}
@@ -68,7 +68,7 @@ const ContactForm = () => {
         <input
           type="email"
           className={`flex p-3 border-2 ${
-            !email ? 'border-red-400' : 'border-gray-300'
+            !email && error ? 'border-red-400' : 'border-gray-300'
           } rounded-lg`}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -79,7 +79,7 @@ const ContactForm = () => {
         <input
           type="text"
           className={`flex p-3 border-2 ${
-            !subject ? 'border-red-400' : 'border-gray-300'
+            !subject && error ? 'border-red-400' : 'border-gray-300'
           } rounded-lg`}
           value={subject}
           onChange={(e) => setSubject(e.target.value)}
@@ -89,7 +89,7 @@ const ContactForm = () => {
         <label className="py-2 text-sm uppercase">Message</label>
         <textarea
           className={`flex p-3 border-2 ${
-            !message ? 'border-red-400' : 'border-gray-300'
+            !message && error ? 'border-red-400' : 'border-gray-300'
           } rounded-lg`}
           rows="10"
           value={message}
