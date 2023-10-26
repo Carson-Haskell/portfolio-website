@@ -1,7 +1,7 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-const ProjectItem = ({ title, description, img }) => {
+const ProjectItem = ({ title, description, img, url }) => {
   return (
     <div className="hover:shadow-gray-500 hover:shadow-xl hover:scale-105 ease-in duration-300 relative flex items-center justify-center w-full h-auto p-4 rounded-xl shadow-lg shadow-gray-400 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image className="rounded-xl group-hover:opacity-10" src={img} alt="/" />
@@ -10,7 +10,7 @@ const ProjectItem = ({ title, description, img }) => {
           {title}
         </h3>
         <p className="pt-2 pb-4 text-center text-white">{description}</p>
-        <Link href="/">
+        <Link href={url}>
           <p className="py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
             More Info
           </p>
