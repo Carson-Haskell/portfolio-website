@@ -9,28 +9,32 @@ const PROJECTS = [
     title: "Nature's Northwest",
     description: 'A PNW hiking blog built with React.js',
     img: naturesNorthwest,
+    url: 'https://github.com/Carson-Haskell/natures-northwest',
   },
   {
     title: 'Smart Brain',
     description:
       'A fullstack facial recognition app built with React.js and Node.js',
     img: smartBrain,
+    url: 'https://smart-brain-a948.onrender.com',
   },
   {
     title: 'Chuck Norris Jokes',
     description: 'A Chuck Norris joke generator built with Svelte/SvelteKit',
     img: chuckNorris,
+    url: 'https://github.com/Carson-Haskell/chucknorris-svelte',
   },
   {
     title: 'Simple Todos',
     description: 'A simple yet elegant todo app built with Svelte',
     img: todos,
+    url: 'https://github.com/Carson-Haskell/todo-svelte',
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="w-full">
+    <div id="projects" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
         <p className="text-xl tracking-widest uppercase text-[#5651e5]">
           Projects
@@ -43,7 +47,7 @@ const Projects = () => {
               title={project.title}
               description={project.description}
               img={project.img}
-              url="/project"
+              url={project.url}
             />
           ))}
         </div>

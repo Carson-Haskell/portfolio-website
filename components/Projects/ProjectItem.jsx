@@ -10,7 +10,7 @@ const ProjectItem = ({ title, description, img, url }) => {
           {title}
         </h3>
         <p className="pt-2 pb-4 text-center text-white">{description}</p>
-        <Link href={url}>
+        <Link href={url} target="_blank">
           <p className="py-3 text-lg font-bold text-center text-gray-700 bg-white rounded-lg cursor-pointer">
             More Info
           </p>

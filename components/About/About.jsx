@@ -1,15 +1,18 @@
-"use client";
+'use client';
 
-import Lottie from "lottie-react";
-import Programmer from "/public/assets/lotties/Programmer.json";
-import useSound from "use-sound";
-import typingSfx from "/public/assets/mp3s/typing.mp3";
+import Lottie from 'lottie-react';
+import Programmer from '/public/assets/lotties/Programmer.json';
+import useSound from 'use-sound';
+import typingSfx from '/public/assets/mp3s/typing.mp3';
 
 const About = () => {
   const [play, { stop }] = useSound(typingSfx, { volume: 0.5 });
 
   return (
-    <div className="flex items-center justify-between w-full p-2 lg:pb-44 lg:mb-10 md:h-screen lg:h-[70%]">
+    <div
+      id="about"
+      className="flex items-center justify-between w-full p-2 lg:pb-44 lg:mb-10 md:h-screen lg:h-[70%]"
+    >
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="self-center col-span-2 ">
           <p className="text-xl tracking-widest uppercase text-[#5651e5]">
@@ -17,16 +20,16 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            My name is Carson Haskell Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit. Optio aspernatur quas vel fuga expedita sequi
-            fugiat quisquam voluptates, et quae placeat labore sed nemo sapiente
-            sunt eius nam, tempora impedit.
+            A PNW native at heart who loves to learn and create. I’ve spent the
+            last six and a half years building a family Real Estate company with
+            my dad, but I’ve always loved technology and learning new skills.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-            maxime aspernatur doloremque nostrum totam voluptatibus, expedita
-            qui accusamus laborum earum modi soluta quos sapiente! Quam ex enim
-            quaerat autem officiis?
+            I’ve spent the last year utilizing all of the best resources the
+            internet has to offer for learning full-stack development, with a
+            particular emphasis on the MERN stack. My love for learning and
+            drive to truly understand how things work have helped me to excel in
+            learning new technologies quickly and effeciently.
           </p>
         </div>
         <div

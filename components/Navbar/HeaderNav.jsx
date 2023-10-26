@@ -1,26 +1,31 @@
-import Link from "next/link";
-import React from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import Link from 'next/link';
+import React from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
 
 const HeaderNav = ({ logo, toggleNav }) => {
   return (
     <div className="flex items-center justify-between w-full h-full px-2 2xl:px-16">
       <div className="flex items-center">
         {logo}
-        <h2 className="ml-2 text-[#1f2937] text-[20px] font-normal tracking-widest">Haskell</h2>
+        <h2 className="ml-2 text-[#1f2937] text-[20px] font-normal tracking-widest">
+          Haskell
+        </h2>
       </div>
       <div>
         <ul className="hidden pr-8 md:flex">
-          <Link href="">
+          <Link href="/#home">
             <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
           </Link>
-          <Link href="">
+          <Link href="/#about">
             <li className="ml-10 text-sm uppercase hover:border-b">About</li>
           </Link>
-          <Link href="">
+          <Link href="/#skills">
             <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
           </Link>
-          <Link href="">
+          <Link href="/#projects">
+            <li className="ml-10 text-sm uppercase hover:border-b">Projects</li>
+          </Link>
+          <Link href="/#contact">
             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
           </Link>
         </ul>

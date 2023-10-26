@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import SkillCard from "./SkillCard";
-import Lottie from "lottie-react";
-import SkillAnim from "/public/assets/lotties/SkillAnim.json";
+import SkillCard from './SkillCard';
+import Lottie from 'lottie-react';
+import SkillAnim from '/public/assets/lotties/SkillAnim.json';
 import {
   Html5Original,
   Css3Original,
@@ -14,90 +14,90 @@ import {
   NodejsOriginal,
   MongodbOriginal,
   ReduxOriginal,
-} from "devicons-react";
-import { AzuresqldatabaseOriginal, PrismaOriginal } from "@beta/devicons-react";
+} from 'devicons-react';
+import { AzuresqldatabaseOriginal, PrismaOriginal } from '@beta/devicons-react';
 
 const SKILLS = [
   {
-    name: "HTML",
+    name: 'HTML',
     icon: <Html5Original size="100" />,
-    url: "https://developer.mozilla.org/en-US/docs/Glossary/HTML5#",
+    url: 'https://developer.mozilla.org/en-US/docs/Glossary/HTML5#',
     id: 1,
   },
   {
-    name: "CSS",
+    name: 'CSS',
     icon: <Css3Original size="100" />,
-    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     id: 2,
   },
   {
-    name: "JavaScript",
+    name: 'JavaScript',
     icon: <JavascriptOriginal size="100" />,
-    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     id: 3,
   },
   {
-    name: "React.js",
+    name: 'React.js',
     icon: <ReactOriginal size="100" />,
-    url: "https://react.dev",
+    url: 'https://react.dev',
     id: 5,
   },
 
   {
-    name: "Next.js",
+    name: 'Next.js',
     icon: <NextjsOriginal size="100" />,
-    url: "https://nextjs.org",
+    url: 'https://nextjs.org',
     id: 6,
   },
   {
-    name: "Redux",
+    name: 'Redux',
     icon: <ReduxOriginal size="100" />,
-    url: "https://react-redux.js.org",
+    url: 'https://react-redux.js.org',
     id: 12,
   },
   {
-    name: "Tailwind",
+    name: 'Tailwind',
     icon: <TailwindcssPlain size="100" />,
-    url: "https://tailwindcss.com",
+    url: 'https://tailwindcss.com',
     id: 8,
   },
   {
-    name: "Github",
+    name: 'Github',
     icon: <GithubOriginal size="100" />,
-    url: "https://github.com/about",
+    url: 'https://github.com/about',
     id: 7,
   },
   {
-    name: "Node.js",
+    name: 'Node.js',
     icon: <NodejsOriginal size="100" />,
-    url: "https://nodejs.org/en/about",
+    url: 'https://nodejs.org/en/about',
     id: 4,
   },
 
   {
-    name: "MongoDB",
+    name: 'MongoDB',
     icon: <MongodbOriginal size="100" />,
-    url: "https://www.mongodb.com",
+    url: 'https://www.mongodb.com',
     id: 9,
   },
   {
-    name: "SQL",
+    name: 'SQL',
     icon: <AzuresqldatabaseOriginal size="100" />,
-    url: "https://aws.amazon.com/what-is/sql/",
+    url: 'https://aws.amazon.com/what-is/sql/',
     id: 10,
   },
 
   {
-    name: "Prisma",
+    name: 'Prisma',
     icon: <PrismaOriginal size="100" />,
-    url: "https://www.prisma.io",
+    url: 'https://www.prisma.io',
     id: 11,
   },
 ];
 
 const Skills = () => {
   return (
-    <div className="w-full p-2 mb-20 lg:h-[90%]">
+    <div id="skills" className="w-full p-2 mb-20 lg:h-[90%]">
       <div className="m-w-[1240px] mx-auto flex-col justify-end h-full items-end">
         <div className="flex flex-col items-center justify-center">
           <p className="text-xl tracking-widest uppercase text-[#5651e5] mt-20 mb-2 md:mt-2 md:mb-6">
@@ -110,8 +110,13 @@ const Skills = () => {
           />
         </div>
         <div className="grid grid-cols-2 gap-4 px-2 xl:gap-12 md:gap-8 xl:px-36 lg:px-24 md:px-14 lg:gap-4 md:grid-cols-4">
-          {SKILLS.map(skill => (
-            <SkillCard key={skill.id} icon={skill.icon} siteUrl={skill.url} skill={skill.name} />
+          {SKILLS.map((skill) => (
+            <SkillCard
+              key={skill.id}
+              icon={skill.icon}
+              siteUrl={skill.url}
+              skill={skill.name}
+            />
           ))}
         </div>
       </div>
