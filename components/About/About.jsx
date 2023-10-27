@@ -20,16 +20,23 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            A PNW native at heart who loves to learn and create. I’ve spent the
-            last six and a half years building a family Real Estate company with
-            my dad, but I’ve always loved technology and learning new skills.
+            As someone with a deep passion for learning and creating, I've spent
+            the last six and a half years working on various entrepreneurial
+            endeavors. However, my heart has always belonged to technology and
+            the pursuit of new skills.
           </p>
           <p className="py-2 text-gray-600">
-            I’ve spent the last year utilizing all of the best resources the
-            internet has to offer for learning full-stack development, with a
-            particular emphasis on the MERN stack. My love for learning and
-            drive to truly understand how things work have helped me to excel in
-            learning new technologies quickly and effeciently.
+            In the past year, I've immersed myself in full-stack development,
+            with a particular emphasis on the MERN stack. My insatiable
+            curiosity and dedication to understanding how things work have
+            allowed me to swiftly and effectively acquire new skills and adapt
+            to emerging technologies.
+          </p>
+          <p className="py-2 text-gray-600">
+            Now, I'm excited to transition my passion for technology into a
+            full-stack developer role. I'm eager to leverage my experiences and
+            problem-solving skills to bring fresh perspectives and innovative
+            solutions to the tech world.
           </p>
         </div>
         <div

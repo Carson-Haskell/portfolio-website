@@ -17,8 +17,13 @@ const Main = () => {
           </h1>
           <h1 className="py-4 text-gray-700">A Full-Stack Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm a full-stack developer specializing in front-end{' '}
-            <span className="text-[#5651e5]">React.js</span> web applications.
+            I'm a developer specializing in{' '}
+            <span className="text-[#5651e5]">
+              <a href="https://www.mongodb.com/mern-stack" target="_blank">
+                MERN Stack
+              </a>
+            </span>{' '}
+            web applications.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <ContactIcons />

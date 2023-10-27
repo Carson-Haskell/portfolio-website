@@ -44,7 +44,7 @@ const Contact = () => {
             </div>
           </div>
           {/* RIGHT */}
-          <div className="w-full h-auto col-span-3 shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="w-full h-auto col-span-3 shadow-lg shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <ContactForm />
             </div>
