@@ -14,6 +14,7 @@ import {
   NodejsOriginal,
   MongodbOriginal,
   ReduxOriginal,
+  SveltePlain,
 } from 'devicons-react';
 import { AzuresqldatabaseOriginal, PrismaOriginal } from '@beta/devicons-react';
 
@@ -40,20 +41,26 @@ const SKILLS = [
     name: 'React.js',
     icon: <ReactOriginal size="100" />,
     url: 'https://react.dev',
-    id: 5,
+    id: 4,
   },
 
   {
     name: 'Next.js',
     icon: <NextjsOriginal size="100" />,
     url: 'https://nextjs.org',
+    id: 5,
+  },
+  {
+    name: 'Svelte',
+    icon: <SveltePlain size="100" />,
+    url: 'https://svelte.dev',
     id: 6,
   },
   {
     name: 'Redux',
     icon: <ReduxOriginal size="100" />,
     url: 'https://react-redux.js.org',
-    id: 12,
+    id: 7,
   },
   {
     name: 'Tailwind',
@@ -62,36 +69,30 @@ const SKILLS = [
     id: 8,
   },
   {
-    name: 'Github',
-    icon: <GithubOriginal size="100" />,
-    url: 'https://github.com/about',
-    id: 7,
-  },
-  {
     name: 'Node.js',
     icon: <NodejsOriginal size="100" />,
     url: 'https://nodejs.org/en/about',
-    id: 4,
+    id: 9,
   },
 
   {
     name: 'MongoDB',
     icon: <MongodbOriginal size="100" />,
     url: 'https://www.mongodb.com',
-    id: 9,
+    id: 10,
   },
   {
     name: 'SQL',
     icon: <AzuresqldatabaseOriginal size="100" />,
     url: 'https://aws.amazon.com/what-is/sql/',
-    id: 10,
+    id: 11,
   },
 
   {
     name: 'Prisma',
     icon: <PrismaOriginal size="100" />,
     url: 'https://www.prisma.io',
-    id: 11,
+    id: 12,
   },
 ];
 

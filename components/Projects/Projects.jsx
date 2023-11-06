@@ -2,6 +2,7 @@ import naturesNorthwest from '/public/assets/projects/natures-northwest.png';
 import smartBrain from '/public/assets/projects/smart-brain.png';
 import chuckNorris from '/public/assets/projects/chuck-norris.png';
 import todos from '/public/assets/projects/todos.png';
+import scripturize from '/public/assets/projects/scripturize.png';
 import ProjectItem from './ProjectItem';
 
 const PROJECTS = [
@@ -16,6 +17,12 @@ const PROJECTS = [
     description:
       'A fullstack facial recognition app built with React.js and Node.js',
     img: smartBrain,
+    url: 'https://smart-brain-a948.onrender.com',
+  },
+  {
+    title: 'Scripturize',
+    description: 'A Scripture memorization app built with SvelteKit',
+    img: scripturize,
     url: 'https://smart-brain-a948.onrender.com',
   },
   {
