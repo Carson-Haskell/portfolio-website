@@ -23,7 +23,7 @@ const PROJECTS = [
     title: 'Scripturize',
     description: 'A Scripture memorization app built with SvelteKit',
     img: scripturize,
-    url: 'https://github.com/Carson-Haskell/scripturize-svelte',
+    url: 'https://scripturize-f398h1rwu-carson-haskells-projects.vercel.app',
   },
   {
     title: 'Chuck Norris Jokes',
