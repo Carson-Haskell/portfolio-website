@@ -1,41 +1,34 @@
-import naturesNorthwest from '/public/assets/projects/natures-northwest.png';
-import smartBrain from '/public/assets/projects/smart-brain.png';
-import chuckNorris from '/public/assets/projects/chuck-norris.png';
-import todos from '/public/assets/projects/todos.png';
-import scripturize from '/public/assets/projects/scripturize.png';
-import ProjectItem from './ProjectItem';
+import naturesNorthwest from "/public/assets/projects/natures-northwest.png";
+import smartBrain from "/public/assets/projects/smart-brain.png";
+import scripturize from "/public/assets/projects/scripturize.png";
+import ProjectItem from "./ProjectItem";
+import turboMiles from "/public/assets/projects/turbomiles.png";
 
 const PROJECTS = [
   {
     title: "Nature's Northwest",
-    description: 'A PNW hiking blog built with React.js',
+    description: "A PNW hiking blog built with React.js",
     img: naturesNorthwest,
-    url: 'https://github.com/Carson-Haskell/natures-northwest',
+    url: "https://github.com/Carson-Haskell/natures-northwest",
   },
   {
-    title: 'Smart Brain',
-    description:
-      'A fullstack facial recognition app built with React.js and Node.js',
-    img: smartBrain,
-    url: 'https://smart-brain-a948.onrender.com',
-  },
-  {
-    title: 'Scripturize',
-    description: 'A Scripture memorization app built with SvelteKit',
+    title: "Scripturize",
+    description: "A Scripture memorization app built with SvelteKit",
     img: scripturize,
-    url: 'https://scripturize-f398h1rwu-carson-haskells-projects.vercel.app',
+    url: "https://scripturize-f398h1rwu-carson-haskells-projects.vercel.app",
   },
   {
-    title: 'Chuck Norris Jokes',
-    description: 'A Chuck Norris joke generator built with Svelte/SvelteKit',
-    img: chuckNorris,
-    url: 'https://github.com/Carson-Haskell/chucknorris-svelte',
+    title: "Smart Brain",
+    description:
+      "A fullstack facial recognition app built with React.js and Node.js",
+    img: smartBrain,
+    url: "https://smart-brain-a948.onrender.com",
   },
   {
-    title: 'Simple Todos',
-    description: 'A simple yet elegant todo app built with Svelte',
-    img: todos,
-    url: 'https://github.com/Carson-Haskell/todo-svelte',
+    title: "TurboMiles",
+    description: "A driving mileage tax deduction app built with Next.js",
+    img: turboMiles,
+    url: "https://github.com/Carson-Haskell",
   },
 ];
 
